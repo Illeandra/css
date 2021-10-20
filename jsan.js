@@ -52,5 +52,5 @@ function Alert(prop){
      al.className = "ajyfly-ct";
      al.innerHTML = prop;
      document.body.prepend(al);
- setTimeout(()=>{ al.remove(); }, 5000);
+ setTimeout(()=>{ al.remove(); }, 10000);
 }
