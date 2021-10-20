@@ -1,10 +1,10 @@
 const rnt = '<div class="marquee__inner"><p class="marquee__line">HALAMAN INI TELAH DI MODIFIKASI, JANGAN RISAU KARENA SAYA TIDAK AKAN MELAKUKAN LEBIH DARI INI !!</p><p class="marquee__line">HALAMAN INI TELAH DI MODIFIKASI, JANGAN RISAU KARENA SAYA TIDAK AKAN MELAKUKAN LEBIH DARI INI !!</p></div>';
 var stArr = [
-    '.marquee {overflow: hidden; z-index: 99999999999; padding-right: 10px; font-family: "Pridi", sans-serif;font-weight: 600;font-size: 25px;text-transform: uppercase;background-color: #FF0000;}',
+    '.marquee {position: fixed; top: 0; left: 0; overflow: hidden; z-index: 99999999999; padding-right: 10px; font-family: "Pridi", sans-serif;font-weight: 600;font-size: 25px;text-transform: uppercase;background-color: #FF0000;}',
     '.marquee__inner {display: flex;}',
     '.marquee__line {flex-shrink: 0;margin: 0;padding: 10px 15px;min-width: 100%;white-space: nowrap;animation-name: marqueeLine;animation-duration: 5s;animation-timing-function: ease-in-out;animation-iteration-count: infinite;}',
     '@keyframes marqueeLine {from {transform: translateX(0);}to {transform: translateX(-100%);}}',
-    '.ajyfly-ct{ position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 200px; border: 1px solid #b8daff; text-align: center; color: #004085; font-weight: 800; background: #9ECEFF; padding: 8px; border-radius: 0.3em; }'
+    '.ajyfly-ct{ z-index: 999999999; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 200px; border: 1px solid #b8daff; text-align: center; color: #004085; font-weight: 800; background: #9ECEFF; padding: 8px; border-radius: 0.3em; }'
 ];
 var soundId = [
    '1cCMovMZ1-EwrPj-S39KAhOfqSLaoyKLX',
